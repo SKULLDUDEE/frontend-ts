@@ -6,18 +6,18 @@ import { UserContext } from "../UserContext";
 import 'react-toastify/dist/ReactToastify.css';
 import logo from "../Images/logo_full.png";
 import img1 from "../Images/Login.png";
-import "./login.css";
+import "./Login.css";
 
 // Password validation schema
 const passwordSchema = new PasswordValidator();
 passwordSchema
-    .is().min(8)          // Minimum length 8
-    .is().max(100)        // Maximum length 100
-    .has().uppercase()    // Must have at least one uppercase letter
-    .has().lowercase()    // Must have at least one lowercase letter
-    .has().digits(1)      // Must have at least one digit
-    .has().symbols()      // Must have at least one special character
-    .has().not().spaces(); // Should not have spaces
+    .is().min(8)         
+    .is().max(100)        
+    .has().uppercase()   
+    .has().lowercase()    
+    .has().digits(1)      
+    .has().symbols()    
+    .has().not().spaces(); 
 
 // Map validation errors
 const passwordErrorMessages = {

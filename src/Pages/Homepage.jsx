@@ -1,9 +1,9 @@
 import React from "react";
-import "./HomePage.css";
+import "./Homepage.css";
 import logo from "../Images/logo.png";
 import logoFull from "../Images/logo_full.png";
-import play from "../Images/play.png";
-import calendar from "../Images/calendar.png";
+import play from "../Images/Play.png";
+import calendar from "../Images/Calendar.png";
 import profile from "../Images/Profile Image.png";
 import img1 from "../Images/Frame 1.png";
 import img2 from "../Images/Frame 2.png";
